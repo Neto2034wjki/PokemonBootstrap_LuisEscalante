@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Page - Pokémon</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <!-- Logo o nombre del sitio -->
+            <a class="navbar-brand" href="#"><img src="img/icon.png" alt="IconoWeb" width="40px"></a>
+            <!-- Botón para el menú responsive en pantallas pequeñas -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Togglenavigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Contenido del menú -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="paginas/about.html">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="paginas/contact.html">Contactanos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-4">
+        <h1 class="text-center mb-4">Bienvenido a la Página de Inicio
+            Pokémon</h1>
+        <p class="lead">Pokémon es una franquicia de videojuegos, series de
+            televisión y películas creada por Satoshi Tajiri
+            y Ken Sugimori. En el mundo de Pokémon, los entrenadores capturan y
+            entrenan criaturas conocidas como Pokémon para
+            competir en emocionantes batallas y completar la Pokédex.</p>
+        <p class="lead">Para ver más sobre algunos de los pokemones que existen,
+            puedes dar click en los siguientes botones
+            informativos:</p>
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-3 col-sm-4 col-6 mb-2">
+                <button type="button" class="btn btn-primary btn-block btn-lg" data-bs-toggle="modal"
+                    data-bs-target="#pikachuModal">Pikachu</button>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6 mb-2">
+                <button type="button" class="btn btn-primary btn-block btn-lg" data-bs-toggle="modal"
+                    data-bs-target="#charizardModal">Charizard</button>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6 mb-2">
+                <button type="button" class="btn btn-primary btn-block btn-lg" data-bs-toggle="modal" data-bs-target="#squirtleModal">Squirtle</button>
+            </div>
+            <div class="col-md-3 col-sm-4 col-6 mb-2">
+                <button type="button" class="btn btn-primary btn-block btn-lg" data-bs-toggle="modal" data-bs-target="#bulbasaurModal">Bulbasaur</button>
+              </div>
+        </div>
+    </div>
+    <!-- Modales para cada Pokémon -->
+    <!-- Pikachu Modal -->
+    <div class="modal fade" id="pikachuModal" tabindex="-1" aria-labelledby="pikachuModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="pikachuModalLabel">Pikachu</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center">
+                      <div class="col-auto">
+                    <img src="img/pikachu-f.png" alt="">
+                </div>
+            </div>
+          </div>
+                <p class="ms-3">Pikachu es un Pokémon tipo Eléctrico, es conocido por su adorable apariencia y su habilidad para lanzar rayos eléctricos a sus oponentes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Charizard Modal -->
+    <div class="modal fade" id="charizardModal" tabindex="-1" aria-labelledby="charizardModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="charizardModalLabel">Charizard</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center">
+                      <div class="col-auto">
+                    <img src="img/Charizard.webp" alt="">
+                </div>
+            </div>
+          </div>
+                </div>
+              <p class="ms-3">Charizard es un Pokémon tipo Fuego/Volador. Es la evolución final de Charmander y es conocido por su habilidad para lanzar potentes llamas desde su boca.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Squirtle Modal -->
+    <div class="modal fade" id="squirtleModal" tabindex="-1" aria-labelledby="squirtleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="squirtleModalLabel">Squirtle</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center">
+                      <div class="col-auto">
+                    <img src="img/3ef6c4a73a478bb9c7de0bcd6bab6c085bbc2923_hq.jpg" width="350px" alt="">
+                </div>
+            </div>
+          </div>
+                <p class="ms-3">Squirtle es un Pokémon tipo Agua. Es uno de los Pokémon iniciales en la región de Kanto y se caracteriza por su caparazón en forma de espiral.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Bulbasaur Modal -->
+    <div class="modal fade" id="bulbasaurModal" tabindex="-1" aria-labelledby="bulbasaurModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="bulbasaurModalLabel">Bulbasaur</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center">
+                      <div class="col-auto">
+                    <img src="img/001.png" width="350px" alt="">
+                </div>
+            </div>
+          </div>
+                <p class="ms-3">Bulbasaur es un Pokémon tipo Planta/Veneno. Es otro de los Pokémon iniciales en la región de Kanto y tiene una semilla en su lomo que va creciendo con él a medida que evoluciona.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div id="pokemonCarousel" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicadores del carrusel -->
+        <ol class="carousel-indicators">
+            <li data-bs-target="#pokemonCarousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#pokemonCarousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#pokemonCarousel" data-bs-slide-to="2"></li>
+            <!-- Agrega más indicadores si tienes más imágenes -->
+        </ol>
+        <!-- Imágenes del carrusel -->
+        <div class="container mt-3">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/banner1.jpg" alt="Pikachu" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banner2.webp" alt="Charizard" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banner3.webp" alt="Squirtle" class="d-block w-100">
+                </div>
+                <!-- Agrega más imágenes del carrusel -->
+            </div>
+            <!-- Controles del carrusel -->
+            <a class="carousel-control-prev" href="#pokemonCarousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#pokemonCarousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </a>
+        </div>
+    </div>
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>&copy; 2023 - Todos los derechos reservados </p>
+        <p>Proyecto Tecnologico de Desarrollo de Páginas Web | Wilfredo
+            Granados</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+
+</html>
